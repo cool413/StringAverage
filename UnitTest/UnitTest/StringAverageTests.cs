@@ -2,9 +2,9 @@ using FluentAssertions;
 using NUnit.Framework;
 using StringAverage;
 
-namespace StringAverageTests
+namespace UnitTest
 {
-    public class Tests
+    public class StringAverageTests
     {
         private StringAverager _stringAverager;
         

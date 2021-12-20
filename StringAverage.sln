@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAverager", "StringAverager\StringAverager.csproj", "{3F6966BF-4FEB-451A-A64B-4E81C0D48D12}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringAverageTests", "UnitTest\StringAverageTests\StringAverageTests.csproj", "{F093C738-2F60-4BB0-8414-D168BCB61A5C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTest", "UnitTest\UnitTest\UnitTest.csproj", "{F093C738-2F60-4BB0-8414-D168BCB61A5C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
