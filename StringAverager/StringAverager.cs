@@ -23,6 +23,8 @@ namespace StringAverage
 
         public string AverageString(string str)
         {
+            if (string.IsNullOrEmpty(str)) { return InvalidString; }
+
             var totalNum = 0;
 
             var strAry = str.Trim().Split(" ");
@@ -51,10 +53,7 @@ namespace StringAverage
 
         private static bool IsValid(string str)
         {
-            if (string.IsNullOrEmpty(str))
-            {
-                return false;
-            }
+            if (string.IsNullOrEmpty(str)) { return false; }
             
             return NumberDic.ContainsKey(str.ToLower());
         }

@@ -19,6 +19,7 @@ namespace UnitTest
         [Test]
         [TestCase("")]
         [TestCase(" ")]
+        [TestCase(null)]
         [TestCase("Ten")]
         public void Can_invalid_input(string input)
         {
